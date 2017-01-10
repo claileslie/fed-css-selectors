@@ -1,2 +1,33 @@
 /* Move your styles here when you're ready to clean up your HTML file */
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+html {
+  font-size: 14px;
+}
+h1, h2 {
+  font-family: Georgia, Verdana, sans-serif;
+}
+header {
+  border-bottom: 4px dotted black;
+}
+
+.class-list {
+  list-style-type: square;
+}
+
+.item {
+  border: 2px dotted orange;
+}
+
+.even {
+  background-color: grey;
+}
+
+.odd {
+  background-color: black;
+  color: white
+}
+
+#advanced-selectors ol > li {
+  background-color: grey;
+  padding: 1px;
+}
