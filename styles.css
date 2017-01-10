@@ -10,6 +10,13 @@ header {
   border-bottom: 4px dotted black;
 }
 
+#item1 {
+  font-size: 30px;
+}
+
+#item2 {
+  text-align:right;
+}
 .class-list {
   list-style-type: square;
 }
@@ -27,7 +34,23 @@ header {
   color: white
 }
 
-#advanced-selectors ol > li {
+#advanced-selectors ol p {
   background-color: grey;
   padding: 1px;
+}
+
+#advanced-selectors li:nth-child(odd) p {
+  background-color: green;
+}
+
+[title="Bitmaker"]:hover {
+  text-decoration: none;
+}
+
+#advanced-selectors ul li:hover {
+  background-color: yellow;
+}
+
+#advanced-selectors ul li:active {
+  background-color: red;
 }
